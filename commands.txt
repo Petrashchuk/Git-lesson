@@ -1,0 +1,66 @@
+1. git init
+- ініціалізація git
+
+2. git help
+- показує список команд
+
+3. git status
+- провірка статусу
+
+4. git add <file>
+- добавляє файл в git(на стедж);
+
+5. git rm --cached <file>..."
+- видаляє файл з git(з стеджа);
+
+6. git restore <file>"
+- удаляє зроблені змінни;
+
+7. git commit -m "commit name"
+- створюємо комміт;
+
+8. git log
+- показує список коммітів;
+
+9. git branch
+- показує список бранчів;
+
+10. git branch <name>
+- створює бранчу з <name>;
+
+11. git branch -D <name>
+- удаляє бранчу з <name>;
+
+11. git checkout <name>
+- переходів на інший бранч <name>;
+
+12. git checkout -b  <name>
+- створює бранч з з <name> та переходить на неї;
+
+13. git merge <branch-name>
+- мерджаємо бранч до вашої поточної бранчі
+
+14. git config --global {user.email || user.name}
+- налаштування конфігів для того щоб гіт міг звязатись з акаунтом на вашому гітхаб
+
+15. git chery-pick {commit}
+- забрати комміт локально в іншу бранч
+
+16. git stash
+- покласти зміни на "поличку"
+
+17. git stash apply {id}
+- взяти комміт з полички
+
+18. git stash list
+- подивитись те що є за сташене
+
+19. git stash pop
+- забрати перший послідній сташ і видалити його зі списку
+
+
+
+
+
+git remote set-url origin https://github.com/Petrashchuk/Git-Course.git
+
